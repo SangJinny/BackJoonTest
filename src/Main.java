@@ -4,19 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*Scanner scan = new Scanner(System.in);
 
-        int n = scan.nextInt();*/
-        int [][] arr = {
-                {1,2,3,5},
-                {5,6,7,8},
-                {4,3,2,1}
-        };
-        System.out.println(kakao5(arr));
-
-
-
+        BackJoonTest_7576.backJoonTest_7576();
     }
+
 
     public static int kakao1(int n) {
 
