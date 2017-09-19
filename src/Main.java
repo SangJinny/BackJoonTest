@@ -1,11 +1,13 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        BackJoonTest_2667 temp = new BackJoonTest_2667();
 
-        BackJoonTest_7576.backJoonTest_7576();
+        BackJoonTest_2667.backJoonTest_2667();
     }
 
 
