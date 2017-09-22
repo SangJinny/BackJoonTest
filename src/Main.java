@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BackJoonTest_2667 temp = new BackJoonTest_2667();
+        BackJoonTest_2875 temp = new BackJoonTest_2875();
 
-        BackJoonTest_2667.backJoonTest_2667();
+        BackJoonTest_10820.BackJoonTest_10820();
     }
 
 
