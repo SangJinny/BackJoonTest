@@ -1,3 +1,7 @@
+import jdk.internal.util.xml.impl.Input;
+import sun.misc.Resource;
+
+import java.io.*;
 import java.util.List;
 import java.util.Scanner;
 
@@ -5,9 +9,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BackJoonTest_2875 temp = new BackJoonTest_2875();
 
-        BackJoonTest_10820.BackJoonTest_10820();
+
+        BackJoonTest_2805.BackJoonTest_2805();
+
+    }
+
+    public static void customFunction (int [] arr) throws ArrayIndexOutOfBoundsException {
+
+        System.out.println("함수 호출!");
+        System.out.println(arr[5]);
     }
 
 
