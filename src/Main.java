@@ -11,8 +11,8 @@ public class Main {
 
 
 
-        BackJoonTest_2805.BackJoonTest_2805();
-
+        BackJoonTest_2293.BackJoonTest_2293();
+        return;
     }
 
     public static void customFunction (int [] arr) throws ArrayIndexOutOfBoundsException {
