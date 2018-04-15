@@ -7,6 +7,7 @@ public class BackJoonTest_11057 {
         Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
 
+        // 길이가 i이고 마지막 숫자가 j인 오르막 수의 개수
         int [][] d = new int [input+1][10];
 
         for (int i = 0; i < 10; i++) {

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class BackJoonTest_1654 {
 
+    /* 이분탐색 문제.. */
     public static void backJoonTest_1654 () {
 
         Scanner scan = new Scanner(System.in);

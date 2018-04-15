@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class BackJoonTest_1920 {
 
+    /* 이진탐색 */
     public static void BackJoonTest_1920 () {
 
         Scanner scan = new Scanner(System.in);
@@ -25,7 +26,7 @@ public class BackJoonTest_1920 {
             int min = 0;
             int max = n-1;
             boolean isPresent = false;
-            while (min <= max) {
+            while (min <= max) { // 이진탐색의 핵심......!!!
 
                 int mid = (min + max) / 2;
                 if(nList[mid] > mList[i]) {

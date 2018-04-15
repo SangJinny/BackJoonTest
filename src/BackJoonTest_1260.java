@@ -64,17 +64,16 @@ public class BackJoonTest_1260 {
     public static void bfs (int input) {
 
         Queue<Integer> q = new LinkedList<Integer>();
-        q.add(input);
+        q.add(input); // 방문한 노드를 큐에 넣는다.
         trace[input] = true;
 
         while (!q.isEmpty()) {
-            int x = q.remove();
+            int x = q.remove(); // POP
             System.out.print(x + " ");
-
-            for (int y : graph[x]) {
+            for (int y : graph[x]) { // 큐에서 꺼낸 노드를 기준으로 경로 탐색
                 if (trace[y] == false) {
                     trace[y] = true;
-                    q.add(y);
+                    q.add(y); // 간적이 없으면 큐에 넣는다
                 }
             }
         }
